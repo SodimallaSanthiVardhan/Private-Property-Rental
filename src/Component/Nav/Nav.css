@@ -214,7 +214,6 @@ a.active {
   margin-bottom: 5px;
 }
 
-/* Responsive Styles */
 @media (max-width: 900px) {
   #btn1 {
     display: none;
