@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Signup.css';
 import { MdOutlinePersonAddAlt1 } from 'react-icons/md';
-
 function Signup() {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
