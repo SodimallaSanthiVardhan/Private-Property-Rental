@@ -16,7 +16,6 @@ function Nav() {
   const [visible, setVisible] = useState(false);
   const menuRef = useRef();
 
-  // Close on outside click
   useEffect(() => {
     function handleClickOutside(event) {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
