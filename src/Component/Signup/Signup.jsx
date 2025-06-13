@@ -15,7 +15,6 @@ function Signup() {
     }
 
     alert("SignUp Successfully...👍");
-    // You can reset form or add API logic here
   };
 
   return (
