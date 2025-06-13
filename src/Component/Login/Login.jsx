@@ -9,14 +9,12 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Simple validation logic — replace with API later
     if (!email || !password) {
       alert('Please fill in all fields ❗');
       return;
     }
 
     alert('Login Successfully...👍');
-    // Add actual login logic or API request here
   };
 
   return (
